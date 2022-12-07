@@ -232,10 +232,168 @@ img {
 
 /*CSS FOR SHOP PAGE STARTS HERE*/
 
+.merch-header h1 {
+  margin: 0;
+  padding: 1em 1em .5em 1em;
+  font-size: 2em;
+  font-family: 'Comfortaa', cursive;
+}
 
+.merch-hr {
+  display: block;
+  margin: 0em 2em 3em 2em;
+  border-width: 1px;
+  border-color: #52b2bf;
+}
 
+.merch-grid {
+  margin: 0;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
 
+.merch-hob-tee {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
 
+.merch-hob-tee:hover {
+  transform: scale(1.1);
+}
+
+.merch-trilogy-tee {
+  padding: 1em;
+  margin: 0;
+  font-size: .7em;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.merch-trilogy-crewneck {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.merch-trilogy-crewneck:hover {
+  transform: scale(1.1);
+}
+
+.merch-trilogy-crew {
+  padding: 1em;
+  margin: 0;
+  font-size: .7em;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.merch-cover-tee {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.merch-cover-tee:hover {
+  transform: scale(1.1);
+}
+
+.merch-trilogy-cover {
+  padding: 1em;
+  margin: 0;
+  font-size: .7em;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.second-merch-grid {
+  margin: 0;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.dawn-fm-cover {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.dawn-fm-cover:hover {
+  transform: scale(1.1);
+}
+
+.dawn-cover-tee {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-size: .7em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.dawn-fm-tee {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.dawn-fm-tee:hover {
+  transform: scale(1.1);
+}
+
+.dawn-fm-tshirt {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-size: .7em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.dawn-fm-long-sleeve {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.dawn-fm-long-sleeve:hover {
+  transform: scale(1.1);
+}
+
+.dawn-fm-shirt {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-size: .7em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container {
+  margin: 1.5em 0 3em;
+  padding:
+}
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: .5em 1em;
+  font-size: 1em;
+  background-color: #52b2bf;
+  border-radius: 8px;
+}
+
+.button:hover {
+  color: black;
+}
 
 footer {
   padding: 1.5em;
@@ -322,6 +480,163 @@ footer p {
     margin: 2em 0em 2em 0em;
     border-width: 1px;
     border-color: #99EEBB;
+  }
+
+  .merch-header h1 {
+    margin: 0;
+    padding: 1em 1em .5em 1em;
+    font-size: 3em;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .merch-hr {
+    display: block;
+    margin: 0em 3em 3em 3em;
+    border-width: 1px;
+    border-color: #52b2bf;
+  }
+
+  .merch-grid {
+    margin: 0;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+
+  .merch-hob-tee {
+    padding: 1em;
+    margin: 0;
+    transform: scale(1);
+    transition: all .4s ease;
+  }
+
+  .merch-hob-tee:hover {
+    transform: scale(1.1);
+  }
+
+  .merch-trilogy-tee {
+    padding: 1em;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .merch-trilogy-crewneck {
+    padding: 1em;
+    margin: 0;
+    transform: scale(1);
+    transition: all .4s ease;
+  }
+
+  .merch-trilogy-crewneck:hover {
+    transform: scale(1.1);
+  }
+
+  .merch-trilogy-crew {
+    padding: 1em;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .merch-cover-tee {
+    padding: 1em;
+    margin: 0;
+    transform: scale(1);
+    transition: all .4s ease;
+  }
+
+  .merch-cover-tee:hover {
+    transform: scale(1.1);
+  }
+
+  .merch-trilogy-cover {
+    padding: 1em;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .second-merch-grid {
+    margin: 0;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+
+  .dawn-fm-cover {
+    padding: 1em;
+    margin: 0;
+    transform: scale(1);
+    transition: all .4s ease;
+  }
+
+  .dawn-fm-cover:hover {
+    transform: scale(1.1);
+  }
+
+  .dawn-cover-tee {
+    padding: 1em;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .dawn-fm-tee {
+    padding: 1em;
+    margin: 0;
+    transform: scale(1);
+    transition: all .4s ease;
+  }
+
+  .dawn-fm-tee:hover {
+    transform: scale(1.1);
+  }
+
+  .dawn-fm-tshirt {
+    padding: 1em;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .dawn-fm-long-sleeve {
+    padding: 1em;
+    margin: 0;
+    transform: scale(1);
+    transition: all .4s ease;
+  }
+
+  .dawn-fm-long-sleeve:hover {
+    transform: scale(1.1);
+  }
+
+  .dawn-fm-shirt {
+    padding: 1em;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .container {
+    margin: 1.5em 0 3em;
+    padding:
+  }
+
+  .button {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: .5em 1em;
+    font-size: 1em;
+    background-color: #52b2bf;
+    border-radius: 8px;
+  }
+
+  .button:hover {
+    color: black;
   }
 
 }
@@ -431,6 +746,163 @@ footer p {
   margin: 2em 0em 2em 0em;
   border-width: 1px;
   border-color: #99EEBB;
+}
+
+.merch-header h1 {
+  margin: 0;
+  padding: 1em 1em .5em 1em;
+  font-size: 3em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.merch-hr {
+  display: block;
+  margin: 0em 3em 3em 3em;
+  border-width: 1px;
+  border-color: #52b2bf;
+}
+
+.merch-grid {
+  margin: 0;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.merch-hob-tee {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.merch-hob-tee:hover {
+  transform: scale(1.1);
+}
+
+.merch-trilogy-tee {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.merch-trilogy-crewneck {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.merch-trilogy-crewneck:hover {
+  transform: scale(1.1);
+}
+
+.merch-trilogy-crew {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.merch-cover-tee {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.merch-cover-tee:hover {
+  transform: scale(1.1);
+}
+
+.merch-trilogy-cover {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.second-merch-grid {
+  margin: 0;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.dawn-fm-cover {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.dawn-fm-cover:hover {
+  transform: scale(1.1);
+}
+
+.dawn-cover-tee {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.dawn-fm-tee {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.dawn-fm-tee:hover {
+  transform: scale(1.1);
+}
+
+.dawn-fm-tshirt {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.dawn-fm-long-sleeve {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.dawn-fm-long-sleeve:hover {
+  transform: scale(1.1);
+}
+
+.dawn-fm-shirt {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container {
+  margin: 1.5em 0 3em;
+  padding:
+}
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: .5em 1em;
+  font-size: 1em;
+  background-color: #52b2bf;
+  border-radius: 8px;
+}
+
+.button:hover {
+  color: black;
 }
 
 }
