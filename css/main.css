@@ -6,6 +6,8 @@
   box-sizing: inherit;
 }
 
+/* NAV AND HOMEPAGE CSS */
+
 body {
   margin: 0;
   padding: 0;
@@ -26,15 +28,15 @@ header nav {
 }
 
 nav img {
-  max-width: 15%;
-  max-height: 25%;
+  max-width: 7%;
+  max-height: 12%;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
-  gap: 4rem;
-  font-size: 1.5em;
+  gap: 2rem;
+  font-size: 1em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -50,37 +52,385 @@ nav a:hover {
   color: #52b2bf;
 }
 
-.merch-nav header {
-  background-color: #;
-  font-family: 'Comfortaa', cursive;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: .8em 2em;
+hr {
+  display: block;
+  margin: 4em 4em 1em 4em;
+  border-width: .7px;
+  border-color: #11253D;
 }
 
-.merch-nav img {
-  max-width: 15%;
-  max-height: 25%;
-}
-
-.merch-nav ul {
-  list-style-type: none;
+.bio-text {
   margin: 0;
-  gap: 4rem;
-  font-size: 1.5em;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding: 2em 3em 0em 3em;
+  text-align: center;
 }
 
-.merch-nav ul li a {
-  text-decoration: none;
-  color: black;
-  transition: all .3s linear;
+.bio-text h2 {
+  margin: 0;
+  padding: .5em 0 0 0;
+  font-size: 2.5em;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
 }
 
-.merch-nav a:hover {
+.bio-text p {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bio-text a {
   color: #52b2bf;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.bio-text a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.grid {
+  margin: 0;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+.hob-tee {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.hob-tee:hover {
+  transform: scale(1.1);
+}
+
+.trilogy-tee {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.trilogy-tee a {
+  color: #52b2bf;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.trilogy-tee a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.trilogy-crewneck {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.trilogy-crewneck:hover {
+  transform: scale(1.1);
+}
+
+.trilogy-crew {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.trilogy-crew a {
+  color: #52b2bf;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.trilogy-crew a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.cover-tee {
+  padding: 1em;
+  margin: 0;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.cover-tee:hover {
+  transform: scale(1.1);
+}
+
+.trilogy-cover {
+  padding: 1em;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.trilogy-cover a {
+  color: #52b2bf;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.trilogy-cover a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* CSS FOR BIOGRAPHY PAGE */
+
+img {
+  width: 100%;
+}
+
+.biography {
+  margin: 1em;
+  padding: 1em 2em;
+}
+
+.biography h1 {
+  margin: 0;
+  font-size: 1.8em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.bio-hr {
+  display: block;
+  margin: 1em 0em 1.5em 0em;
+  border-width: 1px;
+  border-color: #99EEBB;
+}
+
+.biography p {
+  font-size: .9em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.biography img {
+  margin: 0;
+  padding-bottom: 2em;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.banner-hr {
+  display: block;
+  margin: 2em 0em 2em 0em;
+  border-width: 1px;
+  border-color: #99EEBB;
+}
+
+/*CSS FOR SHOP PAGE STARTS HERE*/
+
+
+
+
+
+
+footer {
+  padding: 1.5em;
+  margin: 2.5em 0 0 0;
+  font-family: 'Comfortaa', cursive;
+  background-color: black;
+}
+
+footer p {
+  margin: 0;
+  color: #fff;
+  font-size: .8em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/*TABLET STARTS HERE*/
+
+@media only screen and (min-width: 760px) {
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    gap: 3rem;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .grid {
+    margin: 1em 2em 0 0;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+
+  .bio-text {
+    margin: 0;
+    padding: 2em 5em 0em 5em;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .biography {
+    margin: 1em;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3em;
+  }
+
+  .biography h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .bio-hr {
+    display: block;
+    margin: 1em 2em 2em 0em;
+    border-width: 1px;
+    border-color: #99EEBB;
+  }
+
+  .biography p {
+    padding-right: 1em;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .biography img {
+    padding-left: 1em;
+    margin: 0;
+    max-height: 100%;
+  }
+
+  .banner-hr {
+    display: block;
+    margin: 2em 0em 2em 0em;
+    border-width: 1px;
+    border-color: #99EEBB;
+  }
+
+}
+
+/* DESKTOP STARTS HERE*/
+
+@media only screen and (min-width: 1200px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  header nav {
+    background-color: #;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8em 2em;
+  }
+
+  nav img {
+    max-width: 4%;
+    max-height: 9%;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    gap: 4rem;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all .3s linear;
+  }
+
+  nav a:hover {
+    color: #52b2bf;
+  }
+
+  .grid {
+    margin: 1em 2em 0 0;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+
+  .bio-text {
+    margin: 0;
+    padding: 2em 15em 0em 15em;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .biography {
+    margin: 1em;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3em;
+  }
+
+  .biography h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .bio-hr {
+    display: block;
+    margin: 1em 7em 2em 0em;
+    border-width: 1px;
+    border-color: #99EEBB;
+  }
+
+  .biography p {
+    padding-right: 5em;
+    font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .biography img {
+    padding-left: 5em;
+    margin: 0;
+    max-width: 80%;
+    max-height: 100%;
+  }
+
+.banner-hr {
+  display: block;
+  margin: 2em 0em 2em 0em;
+  border-width: 1px;
+  border-color: #99EEBB;
+}
+
 }
