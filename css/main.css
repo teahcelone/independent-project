@@ -891,6 +891,10 @@ footer p {
   padding:
 }
 
+.merch-banner-image {
+  width: 100%;
+}
+
 .button {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
